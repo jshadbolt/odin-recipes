@@ -1,55 +1,83 @@
- a {
-    color: lightcoral;
-    text-decoration: none;
-    list-style: none;
-
+body {
+    background: rgb(255, 255, 255);
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(148, 142, 183);
 }
 
-/* bounding class */
+a {
+    text-decoration: none;
+    color: rgb(148, 142, 183);
+}
 
-body {
-    background: peachpuff;
+p {
+    list-style: none;
+}
+
+.bottom {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.nav {
+    margin: 10px 0px 0px;
+}
+
+.banner {
+    display: block;
+    width: 400px;
+    margin: 50px auto;
+    border-width: 10px;
+    border-color: aquamarine;
+    border-style: solid;
 }
 
 .container {
-    background-color: whitesmoke;
+    background-color: white;
     width: 500px;
-    height: 500px;
+    height: auto;
     margin: 50px auto;
-    padding: 10px 10px 10px;
-    font-family: sans-serif;
+    padding: 20px 10px 10px;
 }
 
 h1 {
-    background-color: azure;
-    width: max-content;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
     margin: 0px auto;
+    padding: 10px;
+    font-size: 60px;
 }
 
 .content {
-    background: rgb(223, 106, 106);
     height: auto;
-    margin: 10px auto;
+    margin: 50px auto 0px;
     padding: 5px;
 }
 
 .recipes {
-    background-color: rgb(163, 183, 201);
-    height: 300px;
-    padding: 10px;
+    height: auto;
+    padding: 0px;
 }
 
 ul {
     padding-left: 0;
+    margin: 0;
     list-style: none;
     list-style-type: none;
 }
 
+ol {
+    padding-left: 0;
+}
+
 li p {
-    background-color: white;
-    height: 50px;
-    margin: 0px 0px 10px;
-    padding: 20px 0px 0px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(90, 79, 159);
+    height: auto;
+    margin: 0px 0px 5px;
+    padding: 20px 35px;
     text-align: center;
+    font-size: 40px;
 }
 
