@@ -1,0 +1,48 @@
+ a {
+    color: lightcoral;
+    /* text-decoration: none; */
+    /* list-style: none; */
+
+}
+
+/* bounding class */
+
+body {
+    background: peachpuff;
+}
+
+.container {
+    background-color: whitesmoke;
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    padding: 10px 10px 20px;
+    font-family: sans-serif;
+}
+
+h1 {
+    background-color: azure;
+    width: max-content;
+    margin: 0px auto;
+}
+
+.content {
+    background: rgb(218, 218, 218);
+    height: auto;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.recipes {
+    background-color: rgb(163, 183, 201);
+    height: 200px;
+    padding: 10px;
+}
+
+p {
+    height: 50px;
+    background-color: white;
+    margin: 0px 0px 5px;
+
+}
+
